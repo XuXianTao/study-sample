@@ -1,0 +1,9 @@
+{
+	"name": "socket-DJ",
+	"version": "0.0.1",
+	"dependencies": {
+		"express": "^4.16.3",
+		"socket.io": "^2.1.0",
+		"superagent": "^3.8.2"
+	}
+}

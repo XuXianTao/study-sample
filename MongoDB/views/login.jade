@@ -1,0 +1,16 @@
+include layout
+form(action="/login", method="POST")
+	fieldset
+		legend Log in
+		if (sugnupEmail)
+			p Congratulations on signing up! Please login below.
+		p
+			label Email
+			input(name="user[email]", type="text" value=signupEmail)
+		p
+			label Password
+			input(name="user[pw]", type="password")
+		p
+			button Submit
+		p
+			a(href="/") Go back

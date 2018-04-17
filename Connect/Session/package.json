@@ -1,0 +1,9 @@
+{
+	"name": "session_test",
+	"version": "0.0.1",
+	"dependencies": {
+		"connect": "^2.30.2",
+		"connect-redis": "^3.3.3",
+		"redis": "^2.8.0"
+	}
+}

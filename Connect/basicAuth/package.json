@@ -1,0 +1,7 @@
+{
+	"name": "basicAuth",
+	"version": "0.0.1",
+	"dependencies": {
+		"connect": "^2.30.2"
+	}
+}
